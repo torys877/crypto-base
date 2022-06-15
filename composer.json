@@ -1,0 +1,28 @@
+{
+    "name": "crypto/base",
+    "version": "1.0.0",
+    "description": "Auxiliary module to inject web3js library to magento",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ihor Oleksiienko",
+            "homepage": "https://github.com/torys877",
+            "role": "Developer"
+        }
+    ],
+    "repositories": {
+        "crypto_base": {
+            "type": "git",
+            "url": "https://github.com/"
+        }
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Crypto\\Base\\": ""
+        }
+    }
+}
